@@ -10,17 +10,12 @@ interface mathFactCodeNot {
         Arrays.stream(
                 new String[]{"0", "1", "0!", "1!", "!0", "!1", "!0!", "!1!", "0!!", "1!!", "!!0", "!!1", "!0!!", "!!!1", "!!!0!!!!", "!!!1!!!!"}
         ).map(
-                s ->
-                        new String(new Error() {
-                            int l = s.length();
-                            String p = l > 1 ? s.split("[01]")[0] : s;
-                            int n = p.length();
-
-                            {
-                                if (l > 1)
-                                    p = (l - n > 1 || s.charAt(n) == '1') == n % 2 > 0 ? "0" : "1";
-                            }
-                        }.p)
+                s -> new Error() {
+                    int l = s.length(),
+                            n = (l > 1 ? s.split("[01]")[0] : s).length(),
+                            r = l < 2 ? Integer.valueOf(s) :
+                                    n % 2 > 0 == (l - n < 2 && s.charAt(n) < '1') ? 1 : 0;
+                }.r
         ).forEach(System.out::println);
     }
 }
