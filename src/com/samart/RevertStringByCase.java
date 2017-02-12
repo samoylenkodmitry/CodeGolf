@@ -2,6 +2,9 @@ package com.samart;
 
 import java.util.Arrays;
 
+/**
+ * http://codegolf.stackexchange.com/questions/109755/more-fun-with-case-very-sensitive-strings/109791#109791
+ */
 interface RevertStringByCase {
 
     static void main(String[] args) {
