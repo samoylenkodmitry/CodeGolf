@@ -6,6 +6,10 @@ import java.util.Arrays;
 import java.util.Objects;
 
 /**
+ * http://www.russiancodecup.ru/ru/championship/
+ *
+ *
+ *
  * "A" Космический корабль
  Ограничение по времени	2 секунды
  Ограничение по памяти	256 мегабайт
