@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ec8464f-9f48-40ea-8cd7-9ae23d89c319" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/samart/A2017.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/samart/A2017.java" afterPath="$PROJECT_DIR$/src/com/samart/A2017.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,8 +48,8 @@
       <file leaf-file-name="A2017.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/samart/A2017.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="323">
+              <caret line="39" column="6" lean-forward="false" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -608,7 +608,14 @@
       <option name="project" value="LOCAL" />
       <updated>1486909990291</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="http://www.russiancodecup.ru/ru/championship/">
+      <created>1489926712533</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1489926712533</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -652,14 +659,15 @@
     <MESSAGE value="ignore" />
     <MESSAGE value="link to stackexchange" />
     <MESSAGE value="mathFactCodeNot" />
-    <option name="LAST_COMMIT_MESSAGE" value="mathFactCodeNot" />
+    <MESSAGE value="http://www.russiancodecup.ru/ru/championship/" />
+    <option name="LAST_COMMIT_MESSAGE" value="http://www.russiancodecup.ru/ru/championship/" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/samart/A2017.java</url>
-          <line>31</line>
+          <line>65</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
@@ -1299,8 +1307,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/samart/A2017.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="323">
+          <caret line="39" column="6" lean-forward="false" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
