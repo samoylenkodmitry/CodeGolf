@@ -45,18 +45,14 @@ import java.util.Objects;
  */
 public class A2017 {
     public static void main(String... args) throws Exception {
-
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         Integer n = Integer.parseInt(in.readLine());
         Integer[] powers = Arrays.stream(in.readLine().split(" ")).map(Integer::parseInt).toArray(Integer[]::new);
 
-        if (n <= 0) throw new Exception(" 0 n");
-        if (powers == null || powers.length == 0) throw new Exception(" 0 powers");
-
-        Integer[] result = calcOrder(n, powers);
-
         StringBuilder sb = new StringBuilder();
-        Arrays.stream(result).forEach(s -> sb.append(sb.length() == 0 ? "" : " ").append(s));
+
+        Arrays.stream(calcOrder(n, powers)).forEach(s -> sb.append(sb.length() == 0 ? "" : " ").append(s));
+
         System.out.println(sb);
     }
 
