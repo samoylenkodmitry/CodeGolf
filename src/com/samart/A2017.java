@@ -48,9 +48,7 @@ public class A2017 {
 
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         Integer n = Integer.parseInt(in.readLine());
-        String[] split = in.readLine().split(" ");
-        Object[] objects = Arrays.stream(split).map(Integer::parseInt).toArray(Integer[]::new);
-        Integer[] powers = (Integer[]) objects;
+        Integer[] powers = Arrays.stream(in.readLine().split(" ")).map(Integer::parseInt).toArray(Integer[]::new);
 
         if (n <= 0) throw new Exception(" 0 n");
         if (powers == null || powers.length == 0) throw new Exception(" 0 powers");
